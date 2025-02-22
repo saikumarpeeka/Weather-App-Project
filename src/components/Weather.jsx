@@ -72,7 +72,7 @@ const Weather = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-950 relative font-poppins">
+    <div className="h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-950 relative font-poppins">
       {/* ✅ Logo Section in Top-Left Corner */}
       <div className="absolute top-4 left-4 flex items-center gap-2">
         <img
@@ -84,7 +84,7 @@ const Weather = () => {
       </div>
 
       {/* ✅ Main Weather Card */}
-      <div className="app p-5 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
+      <div className="app p-8 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
         <div className="flex items-center gap-3">
           <input
             ref={inputRef}
