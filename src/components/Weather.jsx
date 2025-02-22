@@ -84,7 +84,7 @@ const Weather = () => {
       </div>
 
       {/* ✅ Main Weather Card */}
-      <div className="app p-8 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
+      <div className="app p-5 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
         <div className="flex items-center gap-3">
           <input
             ref={inputRef}
