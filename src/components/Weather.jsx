@@ -73,7 +73,6 @@ const Weather = () => {
 
   return (
     <div className="h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-gray-950 relative font-poppins">
-      {/* ✅ Logo Section in Top-Left Corner */}
       <div className="absolute top-4 left-4 flex items-center gap-2">
         <img
           src="https://img.icons8.com/ios-filled/100/ffffff/partly-cloudy-day.png"
@@ -83,9 +82,8 @@ const Weather = () => {
          <h1 className="text-white text-3xl font-bold">SkyCast</h1>
       </div>
 
-      {/* ✅ Main Weather Card */}
-      <div className="app p-8 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
-        <div className="flex items-center gap-3">
+      <div className="app p-6 rounded-lg bg-gradient-to-r from-blue-800 to-purple-700 flex flex-col items-center shadow-xl">
+        <div className="flex items-center gap-2">
           <input
             ref={inputRef}
             type="text"
